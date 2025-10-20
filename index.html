@@ -53,6 +53,46 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="sgpo_stop()" onmouseover="sgpo_start()">
+              <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one" style="height: 120px;">
+                  <div class="two" id='sgpo' style="height: 120px;">
+                    <img src='images/SGPO.png' width="160" style="border-style: none">
+                  </div>
+                  <img src='images/SGPO.png' width="160" style="border-style: none">
+                </div>
+                <script type="text/javascript">
+                  function sgpo_start() {
+                    document.getElementById('sgpo').style.opacity = "1";
+                  }
+            
+                  function sgpo_stop() {
+                    document.getElementById('sgpo').style.opacity = "0";
+                  }
+                  sgpo_stop();
+                </script>
+              </td>
+              <td style="padding: 20px; width: 75%; vertical-align: middle;">
+                <a href="https://arxiv.org/abs/2505.15093v1">
+                  <span class="papertitle">Steering Generative Models with Experimental Data for Protein Fitness Optimization</span>
+                </a>
+                <br>
+                <a href="#">Jason Yang</a>,
+                <a href="#">Wenda Chu</a>,
+                <strong>Daniel Khalil</strong>,
+                <a href="#">Raul Astudillo</a>,
+                <a href="#">Bruce J. Wittmann</a>,
+                <a href="#">Frances H. Arnold</a>,
+                <a href="#">Yisong Yue</a>
+                <br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2505.15093v1">paper</a> /
+                <a href="https://github.com/jsunn-y/SGPO">code</a>
+                <p></p>
+              </td>
+            </tr>
+
             <tr onmouseout="bkindmulti_stop()" onmouseover="bkindmulti_start()">
               <td style="padding: 20px; width: 25%; vertical-align: middle;">
                 <div class="one" style="height: 120px;">
@@ -92,46 +132,6 @@
                 <p>
                   Learning Keypoints for Multi-Agent Behavior Analysis using Self-Supervision.
                 </p>
-              </td>
-            </tr>
-
-            <tr onmouseout="sgpo_stop()" onmouseover="sgpo_start()">
-              <td style="padding: 20px; width: 25%; vertical-align: middle;">
-                <div class="one" style="height: 120px;">
-                  <div class="two" id='sgpo' style="height: 120px;">
-                    <img src='images/SGPO.png' width="160" style="border-style: none">
-                  </div>
-                  <img src='images/SGPO.png' width="160" style="border-style: none">
-                </div>
-                <script type="text/javascript">
-                  function sgpo_start() {
-                    document.getElementById('sgpo').style.opacity = "1";
-                  }
-            
-                  function sgpo_stop() {
-                    document.getElementById('sgpo').style.opacity = "0";
-                  }
-                  sgpo_stop();
-                </script>
-              </td>
-              <td style="padding: 20px; width: 75%; vertical-align: middle;">
-                <a href="https://arxiv.org/abs/2505.15093v1">
-                  <span class="papertitle">Steering Generative Models with Experimental Data for Protein Fitness Optimization</span>
-                </a>
-                <br>
-                <a href="#">Jason Yang</a>,
-                <a href="#">Wenda Chu</a>,
-                <strong>Daniel Khalil</strong>,
-                <a href="#">Raul Astudillo</a>,
-                <a href="#">Bruce J. Wittmann</a>,
-                <a href="#">Frances H. Arnold</a>,
-                <a href="#">Yisong Yue</a>
-                <br>
-                <em>NeurIPS</em>, 2025
-                <br>
-                <a href="https://arxiv.org/abs/2505.15093v1">paper</a> /
-                <a href="https://github.com/jsunn-y/SGPO">code</a>
-                <p></p>
               </td>
             </tr>
 
